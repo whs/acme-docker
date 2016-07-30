@@ -17,7 +17,7 @@ cat << EOF > /tmp/answers.yaml
 "acme-enter-email": ${ACME_EMAIL}
 EOF
 
-acmetool quickstart --state=/certs/ --expert --stdio --response-file /tmp/answers.yaml
+acmetool quickstart --expert --stdio --response-file /tmp/answers.yaml
 rm /tmp/answers.yaml
 
 fi
