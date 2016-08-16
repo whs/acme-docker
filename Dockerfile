@@ -1,5 +1,5 @@
 FROM alpine
-ENV ACME_VERSION=0.0.54
+ENV ACME_VERSION=0.0.56
 
 COPY acme.sh /etc/periodic/daily/acme.sh
 COPY start.sh /start.sh
