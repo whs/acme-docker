@@ -1,5 +1,8 @@
 # acmetool on Docker
 
+**Deprecation notice:** I'm moving to [certbot](https://hub.docker.com/r/certbot/certbot/) as acmetool does not support ACME v2 (nor it would work with my DNS provider setup). This image **is no longer 
+maintained**
+
 This image runs [acmetool](https://github.com/hlandau/acme) with cronjob to automatically renew certificates.
 
 ## Usage
